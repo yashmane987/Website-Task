@@ -10,9 +10,9 @@ const GBIMFooter = () => {
       <Container>
         <Row className="pb-4">
           
-          <Col md={4} sm={12} className="mb-4">
+          <Col md={4} sm={12} className="mb-4 ">
             <div style={{ display: 'flex', alignItems: 'center', marginBottom: '15px' }}>
-              <img src={logo} alt="GBIM Logo" width="120" height="30" style={{ marginRight: '10px' }} />
+              <img  className='pe-2' src={logo} alt="GBIM Logo" width="180" height="50" style={{ marginRight: '10px' }} />
             </div>
             <p><FaMapMarkerAlt style={{ marginRight: '5px' }} /> <strong>HEAD OFFICE</strong></p>
             <p style={{ margin: 0 }}>
