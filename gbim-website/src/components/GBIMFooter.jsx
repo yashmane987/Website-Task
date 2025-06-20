@@ -1,5 +1,10 @@
 import React from 'react';
 import logo from "../images/logo.png";
+import  googlebadge from "../images/googlebadge.webp";
+import  googleads from "../images/googleads.webp";
+import  googleanalytics from "../images/googleanalytics.webp";
+import  years from "../images/years.webp";
+
 import { Container, Row, Col } from 'react-bootstrap';
 import { FaMapMarkerAlt, FaEnvelope, FaPhoneAlt } from 'react-icons/fa';
 import { BsInstagram, BsFacebook, BsTwitter, BsYoutube, BsLinkedin } from 'react-icons/bs';
@@ -42,10 +47,10 @@ const GBIMFooter = () => {
 
           {/* Badges */}
           <Col md={3} sm={12} className="mb-4 d-flex flex-wrap justify-content-start align-items-center gap-2">
-            <img src="/google-partner.png" alt="Google Partner" width="50" />
-            <img src="/google-ads.png" alt="Google Ads Certified" width="50" />
-            <img src="/google-analytics.png" alt="Google Analytics" width="50" />
-            <img src="/trusted.png" alt="Most Trusted" width="50" />
+            <img src={googlebadge} alt="Google Partner" width="50" />
+            <img src={googleads} alt="Google Ads Certified" width="50" />
+            <img src={googleanalytics} alt="Google Analytics" width="50" />
+            <img src={years} alt="Most Trusted" width="50" />
           </Col>
         </Row>
 
