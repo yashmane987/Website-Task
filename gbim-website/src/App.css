@@ -78,7 +78,7 @@
 }
 
 .faq-title span {
-  color: #5d00c2;
+  color: #680F40;
 }
 
 .faq-tabs {
@@ -102,7 +102,7 @@
 
 .faq-tab-btn.active {
   background: linear-gradient(to right, #ff2e63, #5d00c2);
-  color: #fff;
+  color: #F3E8EA;
 }
 
 .faq-list {

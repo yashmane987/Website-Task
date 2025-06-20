@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from "../images/logo.png";
 import { Container, Row, Col } from 'react-bootstrap';
 import { FaMapMarkerAlt, FaEnvelope, FaPhoneAlt } from 'react-icons/fa';
 import { BsInstagram, BsFacebook, BsTwitter, BsYoutube, BsLinkedin } from 'react-icons/bs';
@@ -11,8 +12,7 @@ const GBIMFooter = () => {
           
           <Col md={4} sm={12} className="mb-4">
             <div style={{ display: 'flex', alignItems: 'center', marginBottom: '15px' }}>
-              
-               <span className="fw-bold fs-2 ps-5 ">GBIM</span>
+              <img src={logo} alt="GBIM Logo" width="120" height="40" style={{ marginRight: '10px' }} />
             </div>
             <p><FaMapMarkerAlt style={{ marginRight: '5px' }} /> <strong>HEAD OFFICE</strong></p>
             <p style={{ margin: 0 }}>

@@ -1,5 +1,6 @@
 import { Navbar, Nav, NavDropdown, Container, Button } from "react-bootstrap";
 import homeimg from "../images/homeimg.png";
+import logo from "../images/logo.png";
 const CustomNavbar = () => {
   return (
     <>
@@ -7,7 +8,21 @@ const CustomNavbar = () => {
         <Container fluid>
           {/* Logo & Brand */}
           <Navbar.Brand href="#" className="d-flex align-items-center">
-            <span className="fw-bold fs-4 ps-5">GBIM</span>
+            <div
+              style={{
+                display: "flex",
+                alignItems: "center",
+                marginBottom: "15px",
+              }}
+            >
+              <img  className="ps-3"
+                src={logo}
+                alt="GBIM Logo"
+                width="120"
+                height="40"
+                style={{ marginRight: "10px" }}
+              />
+            </div>
           </Navbar.Brand>
 
           {/* Toggle for mobile */}
@@ -56,7 +71,7 @@ const CustomNavbar = () => {
         />
         <div className="custom-purple">
           <h1 className="top-centered-text pt-1 ps-5">
-            Strategic  
+            Strategic
             <b>Design Thinking</b> for Smarter Digital Solutions
           </h1>
         </div>
