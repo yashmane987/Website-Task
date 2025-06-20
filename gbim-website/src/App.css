@@ -1,0 +1,274 @@
+.design-section {
+            background-color: #f8f9fa;
+            padding: 4rem 1rem;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+.design-heading {
+     font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            color: #212529;
+        }
+        
+        .design-subheading {
+            font-size: 1.25rem;
+            margin-bottom: 3rem;
+            color: #495057;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .tags-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.5rem;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        .tag {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            border: 1px solid #212529;
+            border-radius: 50px;
+            color: #212529;
+            font-size: 0.9rem;
+            margin-left: 8px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        
+        .tag:hover {
+            background-color: #C7D1D5;
+            color: #131414;
+        }
+        
+        .tags-row {
+            margin-bottom: 1rem;
+            width: 100%;
+            
+        }
+
+
+
+.faq-wrapper {
+  max-width: 800px;
+  margin: auto;
+  padding: 40px 20px;
+  font-family: "Segoe UI", sans-serif;
+  text-align: center;
+}
+
+.faq-subtitle {
+  color: #999;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.faq-title {
+  font-size: 28px;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.faq-title span {
+  color: #5d00c2;
+}
+
+.faq-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.faq-tab-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 999px;
+  background-color: #eee;
+  color: #333;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.faq-tab-btn.active {
+  background: linear-gradient(to right, #ff2e63, #5d00c2);
+  color: #fff;
+}
+
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.faq-item {
+  background-color: #f1f1f1;
+  border-radius: 12px;
+  padding: 16px 20px;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.faq-item.open {
+  background-color: #7f1d1d;
+  color: white;
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.faq-answer {
+  margin-top: 12px;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.faq-toggle {
+  font-size: 16px;
+}
+
+.color-page{
+  color: #9b9a9a;
+}
+.footer {
+  background-color: #fff;
+  color: #111;
+  font-size: 15px;
+  border-top: 3px solid #e5e5e5;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.footer-location {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 600;
+  color: #002d72;
+}
+
+.footer-address {
+  margin-top: 5px;
+  color: #444;
+}
+
+.footer-heading {
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.footer-branch-list {
+  list-style: none;
+  padding-left: 0;
+  color: #333;
+  line-height: 1.8;
+}
+
+.footer-certifications img {
+  max-height: 30px;
+  margin: 6px;
+}
+
+.footer-contact {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+.footer-contact a {
+  color: #111;
+  text-decoration: none;
+}
+
+.footer-contact .icon {
+  color: #002d72;
+}
+
+.footer-warning {
+  font-size: 13px;
+  color: #333;
+}
+
+.footer-warning a {
+  color: red;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.footer-social {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+
+.footer-social a {
+  color: #111;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.footer-social a:hover {
+  color: #5d00c2;
+}
+
+
+.image-container {
+  position: relative;
+  width: 100%;
+  display: inline-block; 
+}
+
+.background-image {
+  width: 100%;
+  display: block;
+}
+
+.top-centered-text {
+  position: absolute;
+  top: 200px; 
+  left: 50%;
+  transform: translateX(-50%);
+  color: #680F40; /* Change color as needed */
+  font-size: 3rem;
+  
+  margin: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.btn-purple {
+  background-color: #680F40;
+  color: white;
+  border: none;
+}
+
+.btn-purple:hover {
+  background-color: #5a0d38; /* optional darker shade for hover */
+}
