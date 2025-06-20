@@ -15,11 +15,11 @@ const CustomNavbar = () => {
                 marginBottom: "15px",
               }}
             >
-              <img  className="ps-3"
+              <img  className="pt-3 ps-4"
                 src={logo}
                 alt="GBIM Logo"
-                width="120"
-                height="40"
+                width="150"
+                height="50"
                 style={{ marginRight: "10px" }}
               />
             </div>
